@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/syberia/config/common.mk)
-
+TARGET_BOOT_ANIMATION_RES := 1080
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := syberia_onclite
 PRODUCT_DEVICE := onclite
